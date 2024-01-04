@@ -1,0 +1,5 @@
+python scripts/ioi_vicon_frame_sync.py --img_folder ../data/images/ --c3d_folder ../data/vicon --cam_folder_first ../data/cameras/20220923/220923_Afternoon_PROCESSED_CAMERA_PARAMS/cameras_param.json --cam_folder_second ../data/cameras/20220926/220926_Morning_PROCESSED_CAMERA_PARAMS/cameras_param.json --output_dir ../data/moyo_images_mocap_projected --frame_offset 1 --split train 
+
+
+#DEBUG 
+/usr/bin/env /home/heimberm/miniconda3/envs/moyo_p39/bin/python /home/heimberm/.vscode-server/extensions/ms-python.python-2023.22.0/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 34425 -- /work/dlclarge2/heimberm-masterprojekt/moyo_toolkit/moyo/scripts/vicon_to_xrprimer.py

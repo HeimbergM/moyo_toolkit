@@ -93,6 +93,7 @@ def visualize_on_img(j2d, img_name, out_dir):
     os.makedirs(out_dir, exist_ok=True)
     ext = osp.splitext(fname)[1]
     for n in range(j2d.shape[0]):
+    #for n in range(19):
         # check if nan
         if np.any(np.isnan(j2d[n, :])):
             continue
